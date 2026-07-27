@@ -1,0 +1,20 @@
+# df.sort_values(by='Salary_LPA', ascending=False, inplace=True)
+# print(df)
+# Role=df['ROLE']
+# empty_dict={}
+# print(Role)
+# # catching unique roles 
+# for name in Role:
+#     if(name not in empty_dict):
+#         empty_dict[name]=1
+# print(empty_dict)
+# # assigning numeric val
+# i=1
+# for val in empty_dict:
+#     empty_dict[val]=i
+#     i=i+1
+# print(empty_dict)
+# #applying the values to real data
+# df['ROLE_numeric']=df['ROLE'].map(empty_dict)
+# print(df)
+# print(df['ROLE'].value_counts())
